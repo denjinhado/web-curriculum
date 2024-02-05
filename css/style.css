@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-size: 16px; /*1rem = 10px*/
+}
+/* HEADER */
+header{
+    margin: 0;
+    background-color: gray;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-ka{
+        width: 30rem;
+    }
+.nav-bar{
+    .link{
+        margin-right: 5rem;
+    }
+}
+}
+.title{
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.txt-move{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    
+}
